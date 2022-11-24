@@ -2,6 +2,7 @@
 Programming language created by PFnove on YouTube
 
 [value]s are always binary, unless otherwise specified
+
 How to program in FLZcode:
 
 1.    VALUES
@@ -17,16 +18,19 @@ How to program in FLZcode:
 
 2.2   WRITING
 2.2.1 Use -out to write the output of the executed function to the output (output is printed at the end of the code)
+
 2.2.2 Use > + [variable id (decimal)] to write the output of the executed function to a variable
 
 3.    FUNCTIONS
 
 3.1   INPUT
 3.1.2 (2.2) Use INPUT to make user input a number (binary), returns user input, invalid input = make user input a number again
+
 3.1.2 (2.3 and above) Use INPUT + [default value] to make user input a number (binary), returns user input or default value (in case of invalis input)
 
 3.2   OUTPUT
 3.2.1 Use DEBUG + [value] to output a value to the terminal
+
 3.2.2 (2.2 and above) Use ASCII + [value] + [newline (0 = newline, anything else = no newline)] to output an ASCII character to the terminal
 
 3.3   IF
@@ -40,8 +44,10 @@ How to program in FLZcode:
 
 3.6   INVERT
 3.6.1 (1.0) Use SUB+0 [value] to invert bits of a specified value, returns value with inverted bits
+
 3.6.2 (1.0) Use SUB+1 [value] to multiply value by -1, returns VALUE x -1
 3.6.3 (1.1 and above) Use INV+0 [value] to invert bits of a specified value, returns value with inverted bits
+
 3.6.4 (1.1 and above) Use INV+1 [value] to multiply value by -1, returns VALUE x -1
 
 3.7   TIMER
