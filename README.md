@@ -1,7 +1,7 @@
 # flz-code
 Programming language created by PFnove on YouTube
 
-
+.
 
 [value]s are always binary, unless otherwise specified
 
