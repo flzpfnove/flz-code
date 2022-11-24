@@ -1,7 +1,7 @@
 # flz-code
 Programming language created by PFnove on YouTube
 
-.
+-
 
 [value]s are always binary, unless otherwise specified
 
@@ -70,7 +70,7 @@ How to program in FLZcode:
 
 3.7   TIMER
 
-3.7.1 (2.3 and above) Start the software execution timer
+3.7.1 (2.3 and above) Use TIMER-START to start the software execution timer
 
 4.    CONSOLE COMMANDS (2.2 and above)
 
