@@ -1,0 +1,7 @@
+r0 -out
+add i0 r0 >0
+add c1 r1 >1
+goto c0 if r1 <= i1
+c0 >0
+c0 >1
+end

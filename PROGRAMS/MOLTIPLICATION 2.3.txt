@@ -1,0 +1,10 @@
+ascii c110001 c1
+input c0 >0
+ascii c110010 c1
+input c0 >1
+timer-start
+r2 -out
+add r0 r2 >2
+add c1 r3 >3
+goto c101 if r3 <= r1
+end
