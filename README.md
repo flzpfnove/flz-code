@@ -12,6 +12,7 @@ How to program in FLZcode:
 
 2.1   READING
 2.1.1 Use R + [variable id (decimal)] to use a variable as input to the function you are executing
+
 2.1.2 (2.2 and earlier) Use I + [input id (0 or 1)] to use one of the user inputs as input to the function you are executing
 
 2.2   WRITING
