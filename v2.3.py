@@ -289,7 +289,7 @@ while j < lines:
                 convert_dec(result_tmp)
             except:
                 result_tmp = varaddrs[0]
-        if main_func == "timer_start":
+        if main_func == "timer_start" and not console:
             start_time = time.perf_counter()
         if main_func == "exit":
             break
