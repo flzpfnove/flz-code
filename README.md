@@ -32,7 +32,7 @@ How to program in FLZcode:
 
 3.1.2 (2.2) Use INPUT to make user input a number (binary), returns user input, invalid input = make user input a number again
 
-3.1.2 (2.3 and above) Use INPUT + [default value] to make user input a number (binary), returns user input or default value (in case of invalis input)
+3.1.2 (2.3 and above) Use INPUT + [default value] to make user input a number (binary), returns user input or default value (in case of invalid input)
 
 
 3.2   OUTPUT
@@ -71,3 +71,13 @@ How to program in FLZcode:
 3.7   TIMER
 
 3.7.1 (2.3 and above) Start the software execution timer
+
+4.    CONSOLE COMMANDS (2.2 and above)
+
+4.1   EXIT
+
+4.1.1 Use STOP to exit console mode
+
+4.2   DUMP MEMORY
+
+4.2.1 Use MEM-DUMP to see a dump of all reserved memory
