@@ -1,0 +1,33 @@
+inv+1 c1 >3
+clear-c
+draw-c c10 r7
+add r7 c1 >7
+goto c10 if r7<c1110
+c0 >7
+goto c11001
+c0100 >1
+c0001 >2
+clear
+copy-c
+pop >0
+goto c0 if r0=c101
+r1 >4
+r2 >5
+add r1 c1 >1 if r0=c00100
+add r1 r3 >1 if r0=c00001
+add r2 c1 >2 if r0=c10111
+add r2 r3 >2 if r0=c10011
+get r1 r2 >6
+r4 >1 if r6>c0
+r5 >2 if r6>c0
+draw r1 r2
+copy
+goto c1001
+draw-c c0011 c0011
+draw-c c0100 c0011
+draw-c c0101 c0011
+draw-c c0110 c0011
+draw-c c0110 c0010
+draw-c c0110 c0000
+goto c111
+end
